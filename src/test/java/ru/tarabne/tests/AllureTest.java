@@ -13,6 +13,7 @@ import static com.codeborne.selenide.Selenide.$;
 import static io.qameta.allure.Allure.step;
 import static org.openqa.selenium.By.linkText;
 
+@DisplayName("Проверка корректности имени Issue")
 public class AllureTest extends TestBase {
     private static final String REPOSITORY = "qa-guru/allure-notifications";
     private static final int ISSUE_ID = 180;
